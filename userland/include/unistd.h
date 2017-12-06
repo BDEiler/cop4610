@@ -148,6 +148,7 @@ int dup2(int filehandle, int newhandle);
 int pipe(int filehandles[2]);
 int __time(time_t *seconds, unsigned long *nanoseconds);
 ssize_t __getcwd(char *buf, size_t buflen);
+ssize_t meld(const char *file1, const char *file2, const char *file3);
 /* stat - see sys/stat.h */
 /* lstat - see sys/stat.h */
 

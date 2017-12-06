@@ -150,7 +150,7 @@ thread_create(const char *name)
 	thread->t_did_reserve_buffers = false;
 
 	/* If you add to struct thread, be sure to initialize here */
-
+	
 	return thread;
 }
 
